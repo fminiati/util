@@ -1,6 +1,6 @@
 # util
 
-# FileParser.h
+FileParser.h:
 FileParser.h parses a file typically to read in input parameters data values in the setup of a code's execution.
 The input data, expected to be written in the format key=value, is mapped to a C++ std::unordered_map<string,string>.
 Content behind a hash char '#' is ignored and a backslash '\' is interpreted as "continue to the next line".
