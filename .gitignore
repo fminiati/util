@@ -27,6 +27,10 @@
 *.lib
 
 # Executables
+*.ex
 *.exe
 *.out
 *.app
+
+# Apple' Desktop Services Store
+.DS_Store
